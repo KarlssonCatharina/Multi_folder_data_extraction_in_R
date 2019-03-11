@@ -76,8 +76,8 @@ library(googleVis)
 library(plotly)
 
 #enter plotly user name and key if it is not in the settings
-Sys.setenv("plotly_username"="CatharinaKarlsson")
-Sys.setenv("plotly_api_key"="Y7H06RLl4SWCs6Mz72Nz")
+Sys.setenv("plotly_username"="UserName") #these need to be replaced with the users plotly name
+Sys.setenv("plotly_api_key"="********************") #this needs to be replaced with the users API key
 
 
 #create a bubble plot with countries and the average goal amount relative to the mean number of backers, goal amount is related to size of the circles
